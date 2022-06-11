@@ -11,7 +11,13 @@ Add code to print three lines where:
 """
 
 
-def sum_numbers(a:int, b:int ) -> None:
+def sum_numbers(a:int, b:int ):
+    """This function calculate the sum, substraction and multiplication of two integer numbers.
+
+    Args:
+        a (int): integer number
+        b (int): integer number
+    """
     suma = a + b 
     substraction = a - b
     multiplication = a * b 
