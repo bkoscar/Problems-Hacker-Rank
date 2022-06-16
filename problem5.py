@@ -7,7 +7,7 @@ def is_leap(year:int):
         year (int): Year
 
     Returns:
-        Bolean: When a year is a year leap
+        Boolean: When a year is a year leap
     """
     leap = True
     if year % 4 == 0:
